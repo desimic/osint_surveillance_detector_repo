@@ -1,2 +1,18 @@
-/.env.example
-/src
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+env/
+.env/
+
+# OS and editor junk
+.DS_Store
+*.log
+
+# VS Code
+.vscode/
