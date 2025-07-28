@@ -1,0 +1,5 @@
+requests
+beautifulsoup4
+python-dotenv
+matrix-nio[e2e]
+sqlite-utils
