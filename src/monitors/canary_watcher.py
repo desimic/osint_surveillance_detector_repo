@@ -21,6 +21,17 @@ import json
 import argparse
 import subprocess
 from typing import Optional
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # Loads .env file automatically
+
+EMAIL = os.getenv("EMAIL")
+IP_ADDRESS = os.getenv("IP_ADDRESS")
+DOMAIN = os.getenv("DOMAIN")
+SIGNAL_PHONE = os.getenv("SIGNAL_PHONE")
+ALERT_MODE = os.getenv("ALERT_MODE", "print")
+
 
 try:
     import requests  # for ntfy
