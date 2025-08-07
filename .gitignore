@@ -16,3 +16,6 @@ env/
 
 # VS Code
 .vscode/
+.env # if not already in .gitignore
+.env
+.env
